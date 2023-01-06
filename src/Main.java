@@ -8,10 +8,18 @@ public class Main {
 
     public static void main(String[] args) {
         Scanner input = new Scanner(System.in);
+//
+//    var poly = new polyDemo();
+//    poly.userRegistration("Sophia","Onyeka");
+////    System.out.println();
+//
+//        lambo v = new lambo();
+//        v.speed();
 
-    var poly = new polyDemo();
-    poly.userRegistration("Sophia","Onyeka");
-//    System.out.println();
+
+        customer cus = new customer();
+        CustomerImpl impl = new CustomerImpl();
+        cus.setCustomerId(1234L);
 
     }
 }
